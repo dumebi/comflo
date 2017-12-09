@@ -197,6 +197,12 @@ a:hover {
   border-radius: 50%;
 }
 
+.first-slide{
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url('../images/con.jpg') no-repeat;
+  background-size: cover;
+}
+
 /* CONTENT
 -------------------------------------------------- */
 .body-header {
