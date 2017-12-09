@@ -1,0 +1,320 @@
+/*
+ * Base structure
+ */ 
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+  background-color: #edf1f7; 
+}
+
+/*
+ * Typography
+ */
+
+h1 {
+  margin-bottom: 20px;
+  padding-bottom: 9px;
+  font-size: 2.3rem;
+  padding-top: 2rem;
+}
+/*
+*Amdin Navigation Top
+*/
+.nav-admin-top {
+  background: #3b7cd6
+}
+.nav-admin-top  .dropdown {
+  padding-top: .7rem;
+  margin-right: 1rem;
+}
+.nav-admin-top a {
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+.nav-admin-top a.dropdown-item {
+  color: #000;
+}
+.navbar-expand-md .navbar-nav .dropdown-menu {
+      right: 0;
+    min-width: 9rem;
+    left: -40%;
+    top: 145%;
+}
+.dropdown-toggle::after {
+  font-family: 'fontAwesome';
+  content: '\f078';
+  border: none;
+  font-size: 0.1rem;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 2.9rem;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 1.2rem 0;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  background-color: #6ba3f1;
+}
+
+.sidebar .nav {
+  margin-bottom: 3rem;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+  margin-left: 0;
+}
+
+.sidebar .nav-link {
+  border-radius: 0;
+  padding: 1rem;
+  color: #ffffff;
+  text-transform: capitalize;
+  transition: background-color 1.5s;
+  -webkit-transition: background-color 1.5s;
+  -moz-transition: background-color 1.5s;
+  -o-webkit-transition: background-color 1.5s;
+  overflow: hidden;
+}
+.nav-pills .nav-link.active, 
+.show>.nav-pills .nav-link,
+.nav-pills .nav-link:hover,
+.nav-pills .nav-link:focus {
+  background-color: rgb(60, 124, 214);
+}
+.sidebar .nav-link i {
+  margin-right: 1rem;
+  width: 1rem;
+  text-align: right;
+  margin-top: 5px;
+}
+.sidebar .nav-link p {
+  margin-top: 3px;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.sidebar h4 {
+  padding-left: 1rem;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  opacity: 1;
+}
+/*
+ * Dashboard
+ */
+.dashboard-content {
+  padding: 3rem;
+  /*margin-left: 13% !important;*/
+}
+.dashboard-widget {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: inset 0 0.5px 0 0 #dad8fa, inset 0 -0.5px 0 0 #dad8fa;
+  -moz-box-shadow: inset 0 0.5px 0 0 #dad8fa, inset 0 -0.5px 0 0 #dad8fa;
+  -webkit-box-shadow: inset 0 0.5px 0 0 #dad8fa, inset 0 -0.5px 0 0 #dad8fa;
+}
+.modal-dialog.front-view-modal.admin-projects {
+  min-width: 50%;
+}
+.modal-dialog.front-view-modal.admin-projects .modal-body {
+  padding: 2.9rem;
+}
+/*
+* Datatables
+*/
+table#projects {
+  counter-reset: serial-number;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.19);
+  background: #fff;
+  margin-bottom: 3rem !important;
+  text-transform: capitalize;
+}
+table#projects tbody tr td:first-child:before {
+  counter-increment: serial-number;
+  content: counter(serial-number);
+  text-align: right;
+}
+table#projects tbody tr td:first-child {
+  text-align: right;
+}
+#projects_wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+table.dataTable thead>tr>th.sorting_asc, 
+table.dataTable thead>tr>th.sorting_desc, 
+table.dataTable thead>tr>th.sorting, 
+table.dataTable thead>tr>td.sorting_asc, 
+table.dataTable thead>tr>td.sorting_desc, 
+table.dataTable thead>tr>td.sorting {
+  border: 0;
+}
+table.dataTable td, 
+table.dataTable th {
+  border: 0;
+  padding: 1rem;
+}
+
+table.dataTable th {
+  font-size: 1rem;
+  font-weight: 400;
+}
+table.dataTable td {
+  font-size: smaller;
+}
+table.dataTable tbody tr {
+  box-shadow: inset 0 0.5px 0 0 #dad8fa, inset 0 0 0 0 ;
+  -webkit-box-shadow: inset 0 0.5px 0 0 #dad8fa, inset 0 0 0 0 ;
+  -moz-box-shadow: inset 0 0.5px 0 0 #dad8fa, inset 0 0 0 0 ;
+}
+table.dataTable td:nth-child(2), 
+table.dataTable th:nth-child(2) {
+}
+table.dataTable td:nth-child(2) img, 
+table.dataTable th:nth-child(2)  img{
+  width: 3rem;
+  height: 3rem;
+  margin-right: 0.5rem;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+  width: 20rem;
+}
+.page-item.active .page-link {
+  background-color: #163a6b;
+  border-color: #163a6b;
+}
+.members td:nth-child(3) {
+  text-transform: lowercase;
+}
+/*
+*Dropzone
+*/
+.dropzone {
+  background: #ffffff;
+  padding: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.polls .progress-bar {
+  height: 2rem;
+}
+.polls label {
+  position: absolute;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  z-index: 2;
+  color: #fff;
+  font-size: 1rem;
+}
+.form-widget {
+      border: 1px solid #e0e0e0;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+}
+.form-widget .form-control,
+.form-widget .custom-file-control {
+  border: solid 1px #e0e0e0;
+}
+.form-widget h4 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+.remove .btn {
+  padding: 0.65rem;
+}
+.form-widget .btn-group {
+  width: 100%;
+}
+.form-widget .btn-group>.btn:first-child{
+  background: #fff;
+  border: solid 1px #e0e0e0;
+  padding: 0.50rem;
+  border-radius: 0;
+  text-align: left;
+  font-size: 0.9rem;
+}
+.form-widget .btn-group>.btn:first-child,
+.multiselect-container,
+.multiselect-container>li>a>label.radio, 
+.multiselect-container>li>a>label.checkbox {
+  width: 100%
+}
+.widget-tab {
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  background: #fff;
+}
+.widget-tab li {
+  width: 1%;
+  display: table-cell;
+  border-right: 1px solid #e0e0e0;
+  padding: 0.5rem 0.8rem;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: center;
+  transition: background-color 1.2s;
+  -webkit-transition: background-color 1.2s;
+  -moz-transition: background-color 1.2s;
+  -o-webkit-transition: background-color 1.2s;
+}
+.widget-tab li:hover,
+.widget-tab li.active {
+  background-color: #163a6b;
+}
+.widget-tab li a {
+  font-size: 14px;
+}
+.widget-tab li:hover a,
+.widget-tab li.active a {
+  color: #ffffff;
+}
+.widget-tab li a p {
+  margin-bottom: 0;
+}
+table .btn-danger {
+  padding: 0.5rem 1rem;
+}
+.dropdown-item {
+  width: auto;
+}
+hr {
+      border: 1px solid #f9f9f9;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.no-border {
+  border: none;
+}
+div.table-responsive>div.dataTables_wrapper>div.row>div.col-md-6 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.export {
+   position: absolute;
+   padding-left: 0;
+   right: 2%
+}
