@@ -89,6 +89,12 @@ a:hover {
   font-weight: 500;
 }
 
+.scrollable{
+  overflow-y: scroll;
+  height: 60vh;
+  font-size: 12px;
+}
+
 /*End Main Menu*/
 
 /*Button*/
@@ -414,6 +420,7 @@ input.form-control:focus {
   max-height: 300px;
   overflow: scroll;
 }
+
 .multiselect-selected-text {
   font-weight: 100;
 }
