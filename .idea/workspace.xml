@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e520a119-4f8a-498a-a6ba-a2413f2db453" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/3D5S2C.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/complete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matching.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/transactions.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/add-poll.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/add-project.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-members.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-polls.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-projects.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin-schools.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin-sets.html" afterPath="$PROJECT_DIR$/all-buyer.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin-wallet.html" afterPath="$PROJECT_DIR$/dashboard.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/all-projects.html" afterPath="$PROJECT_DIR$/buyer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/dashboard.css" afterPath="$PROJECT_DIR$/css/dashboard.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sign-up.html" afterPath="$PROJECT_DIR$/sign-up.html" />
     </list>
@@ -61,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="organisation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/organisation.html">
+      <file leaf-file-name="sign-up.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sign-up.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="186" column="13" lean-forward="true" selection-start-line="177" selection-start-column="4" selection-end-line="186" selection-end-column="13" />
+            <state relative-caret-position="164">
+              <caret line="156" column="72" lean-forward="true" selection-start-line="156" selection-start-column="72" selection-end-line="156" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -74,8 +59,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="553" column="0" lean-forward="false" selection-start-line="553" selection-start-column="0" selection-end-line="553" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -101,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="complete.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="complete.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/complete.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="104">
@@ -151,8 +136,8 @@
       <find>navbar-e</find>
       <find>.allprojects</find>
       <find>tr</find>
-      <find>allprojects</find>
       <find>margin-bottom-1-5</find>
+      <find>allprojects</find>
     </findStrings>
     <replaceStrings>
       <replace>Comflo</replace>
@@ -182,18 +167,18 @@
         <option value="$PROJECT_DIR$/bank-settings.html" />
         <option value="$PROJECT_DIR$/organisation.html" />
         <option value="$PROJECT_DIR$/profile.html" />
-        <option value="$PROJECT_DIR$/sign-up.html" />
         <option value="$PROJECT_DIR$/admin-wallet.html" />
         <option value="$PROJECT_DIR$/dashboard.html" />
         <option value="$PROJECT_DIR$/all-projects.html" />
         <option value="$PROJECT_DIR$/admin-sets.html" />
         <option value="$PROJECT_DIR$/css/dashboard.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/all-buyer.html" />
         <option value="$PROJECT_DIR$/transactions.html" />
         <option value="$PROJECT_DIR$/matching.html" />
         <option value="$PROJECT_DIR$/buyer.html" />
         <option value="$PROJECT_DIR$/complete.html" />
+        <option value="$PROJECT_DIR$/sign-up.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -339,12 +324,12 @@
       <workItem from="1511860253202" duration="3398000" />
       <workItem from="1512748436818" duration="402000" />
       <workItem from="1512748974359" duration="8523000" />
-      <workItem from="1513028478337" duration="19003000" />
+      <workItem from="1513028478337" duration="19470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55387000" />
+    <option name="totallyTimeSpent" value="55854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -660,14 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sign-up.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="88" column="115" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="88" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin-schools.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2085">
@@ -680,14 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="254" column="0" lean-forward="false" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="553" column="0" lean-forward="false" selection-start-line="553" selection-start-column="0" selection-end-line="553" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -724,14 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/matching.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="262" column="63" lean-forward="false" selection-start-line="262" selection-start-column="63" selection-end-line="262" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/transactions.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -752,6 +713,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="105" column="51" lean-forward="false" selection-start-line="105" selection-start-column="51" selection-end-line="105" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matching.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="262" column="63" lean-forward="false" selection-start-line="262" selection-start-column="63" selection-end-line="262" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sign-up.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="156" column="72" lean-forward="true" selection-start-line="156" selection-start-column="72" selection-end-line="156" selection-end-column="72" />
           <folding />
         </state>
       </provider>
