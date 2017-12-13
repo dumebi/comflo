@@ -20,6 +20,13 @@ a:focus {
 a:hover {
   text-decoration: none;
 }
+.placeholder i{
+  font-size: 10em;
+  color: #3a6d38;
+}
+.placeholder h4{
+  color: #3a6d38;
+}
 
 /*Widths and spacings*/
 .container {
@@ -535,4 +542,12 @@ footer .col-lg-3 ul.social-icons li {
 
 .text-white{
   color: #ffffff !important;
+}
+
+#allprojects_paginate{
+  float: right;
+}
+
+.dataTables_filter{
+  float: right;
 }

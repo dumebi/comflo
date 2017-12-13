@@ -17,6 +17,12 @@ h1 {
   font-size: 2.3rem;
   padding-top: 2rem;
 }
+
+.small, small{
+  font-size: 12px;
+}
+
+
 /*
 *Amdin Navigation Top
 */
@@ -246,6 +252,7 @@ div.dataTables_wrapper div.dataTables_filter input {
   width: 20rem;
   padding: 0.5rem;
 }
+
 .page-item.active .page-link {
   background-color: #163a6b;
   border-color: #163a6b;
