@@ -552,3 +552,60 @@ footer .col-lg-3 ul.social-icons li {
 .dataTables_filter{
   float: right;
 }
+.block {
+  text-align: center;
+  vertical-align: middle;
+}
+.circle {
+  background: yellow;
+  border-radius: 50px;
+  border: 3px solid green;
+  height: 50px;
+  font-weight: bold;
+  width: 50px;
+  display: table;
+  margin: 5px auto;
+}
+
+.circle-grey {
+  background: grey;
+  border-radius: 50px;
+  border: 3px solid green;
+  height: 50px;
+  font-weight: bold;
+  width: 50px;
+  display: table;
+  margin: 5px auto;
+}
+
+.circle-blue {
+  background: blue;
+  border-radius: 25px;
+  height: 25px;
+  width: 25px;
+  display: table;
+  /*margin: 5px auto;*/
+}
+
+.circle i {
+  vertical-align: middle;
+  display: table-cell;
+  color: yellow;
+}
+
+.col-md-1{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.col-md-1 p{
+  font-size: 12px;
+  width:fit-content;
+}
+
+.mt-40{
+  margin-top: 10%;
+}
+.mb-40{
+  margin-bottom: 10%;
+}

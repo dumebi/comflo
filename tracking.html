@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Profile</title>
+    <title>Matching</title>
     <!-- Import Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
@@ -98,36 +98,84 @@
         </nav>
 
         <main class="col-sm-10 ml-sm-auto col-md-11 dashboard-content" role="main">
-            <div class="width-100">
-                <h1 class="pull-left">Dashboard <small>Version 1.0</small></h1>
+            <div class="width-100 mb-40">
+                <div class="pull-left">
+                    <h3>Seller</h3>
+                    <h5>Trade House Inc.</h5>
+                </div>
+                <div class="pull-right">
+                    <h3>Buyer</h3>
+                    <h5>Jakarta Trading co.</h5>
+                </div>
             </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 block">
+                        <div class="circle">
+                            <i class="circle-blue fa fa-lock fa-2x"></i>
+                        </div>
+                        <p>Packaging Complete</p>
+                    </div>
+                    <div class="col-md-1 block">
+                        <div class="circle">
+                            <i class="circle-blue fa fa-lock fa-2x"></i>
+                        </div>
+                        <p>Inspections Complete</p>
+                    </div>
+                    <div class="col-md-1 block">
+                        <div class="circle">
+                            <i class="circle-blue fa fa-lock fa-2x"></i>
+                        </div>
+                        <p>Customs Approved</p>
+                    </div>
+                    <div class="col-md-1 block">
+                        <div class="circle">
+                            <i class="circle-blue fa fa-lock fa-2x"></i>
+                        </div>
+                        <p>Shipper Accepted</p>
+                    </div>
+                    <div class="col-md-1 block">
+                        <div class="circle">
+                            <i class="fa fa-lock"></i>
+                        </div>
+                        <p>En Route</p>
+                    </div>
+                    <div class="col-md-1 block">
+                        <div class="circle-grey">
 
-            <section class="row text-center placeholders">
-                <div class="col-6 col-sm-3 placeholder">
-                    <a href="buyer.html">
-                        <i class="fa fa-user-plus fa-5x spanhigh"></i>
-                        <h4 class="spanhighh4">Find Buyers</h4>
-                    </a>
+                        </div>
+                        <p>Arrival at Inbound Port</p>
+                    </div>
+                    <div class="col-md-1 block">
+                        <div class="circle-grey">
+
+                        </div>
+                        <p>Inbound Customs</p>
+                    </div>
+                    <div class="col-md-1 block">
+                        <div class="circle-grey">
+
+                        </div>
+                        <p>Inbound Quality Inspection</p>
+                    </div>
+                    <div class="col-md-1 block">
+                        <div class="circle-grey">
+
+                        </div>
+                        <p>Arrival at Delivery Point</p>
+                    </div>
                 </div>
-                <div class="col-6 col-sm-3 placeholder">
-                    <a href="#">
-                        <i class="fa fa-user fa-5x spanhigh"></i>
-                        <h4 class="spanhighh4">Find Sellers</h4>
+            </div>
+            <div class="row mt-40">
+                <p class="pull-left col-md-6">
+                    <strong>Status:</strong> <span class="text-warning">Pending</span>
+                </p>
+                <p class="pull-right col-md-6">
+                    <a onclick="window.history.back()" class="btn btn-secondary">
+                        Back
                     </a>
-                </div>
-                <div class="col-6 col-sm-3 placeholder">
-                    <a href="trans.html">
-                        <i class="fa fa-handshake-o fa-5x spanhigh"></i>
-                        <h4 class="spanhighh4">Transaction</h4>
-                    </a>
-                </div>
-                <div class="col-6 col-sm-3 placeholder">
-                    <a href="#">
-                        <i class="fa fa-users fa-5x spanhigh"></i>
-                        <h4 class="spanhighh4">Find Lenders</h4>
-                    </a>
-                </div>
-            </section>
+                </p>
+            </div>
         </main>
 
     </div>
@@ -146,7 +194,6 @@
     $(document).ready(function() {
         $('.select2').select2();
         toastr.options.timeOut = 3000;
-        $("#dob").datepicker({dateFormat: 'yy-mm-dd'});
     });
 
 </script>
