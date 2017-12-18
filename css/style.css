@@ -609,3 +609,15 @@ footer .col-lg-3 ul.social-icons li {
 .mb-40{
   margin-bottom: 10%;
 }
+
+.carousel-item{
+  height:100vh !important;
+}
+
+.first-slide{
+  height: 100vh !important;
+}
+.icon-bar{
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
