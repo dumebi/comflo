@@ -620,4 +620,5 @@ footer .col-lg-3 ul.social-icons li {
 .icon-bar{
   color: #ffffff;
   border: 1px solid #ffffff;
+  display: block;
 }
