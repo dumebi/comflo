@@ -135,7 +135,7 @@ a:hover {
 /*End Button*/
 
 .navbar{
-  position: absolute;
+  position: relative;
   top:10px;
   z-index: 11;
   width: 100%;
@@ -622,4 +622,19 @@ footer .col-lg-3 ul.social-icons li {
   color: #ffffff;
   border: 1px solid #ffffff;
   display: block;
+}
+
+@media screen and (max-width: 699px) {
+  h3{
+    font-size: 0.8rem !important;
+    margin-bottom:0.8rem !important;
+  }
+  h2{
+    font-size: 1.0rem !important;
+    margin-bottom:0.8rem !important;
+  }
+  h1{
+    font-size: 1.2rem !important;
+    margin-bottom:0.8rem !important;
+  }
 }

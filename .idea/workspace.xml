@@ -2,86 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e520a119-4f8a-498a-a6ba-a2413f2db453" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/local_services.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/flexslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/simpleLightbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/all-buyer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/assets/3D5S2C.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/assets/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/assets/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/assets/js/popper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/buyer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/complete.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/css/dashboard.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/css/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/images/button-add-project-small-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/images/button-add-project-small-normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/images/con.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/images/container.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/js/dropzone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/js/repeatable-fields.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/js/signup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/matching.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/organisation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/profile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/sign-up.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/tracking.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/trans.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard/transaction.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icons.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/c1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/c2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/c3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/c4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/dott.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/g9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/t1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/t2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/t3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/t4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/SmoothScroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/easing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery-2.1.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.countup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.flexslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.typer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.waypoints.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/move-top.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/simpleLightbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/typography.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
@@ -108,11 +29,21 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5450">
-              <caret line="146" column="7" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="7" />
+            <state relative-caret-position="295">
+              <caret line="639" column="1" lean-forward="true" selection-start-line="639" selection-start-column="1" selection-end-line="639" selection-end-column="1" />
               <folding>
-                <marker date="1518078414000" expanded="true" signature="0:2" ph="/*...*/" />
+                <marker date="1518189516000" expanded="true" signature="0:2" ph="/*...*/" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/dashboard.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="477" column="0" lean-forward="false" selection-start-line="477" selection-start-column="0" selection-end-line="484" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local_services.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="local_services.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/local_services.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="124">
@@ -170,8 +101,18 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="25" column="104" lean-forward="false" selection-start-line="25" selection-start-column="104" selection-end-line="25" selection-end-column="104" />
+            <state relative-caret-position="210">
+              <caret line="25" column="104" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -194,6 +135,8 @@
       <find>.navbar-brand img</find>
       <find>media</find>
       <find>.navbar</find>
+      <find>position: absol</find>
+      <find>pos</find>
     </findStrings>
     <replaceStrings>
       <replace>Comflo</replace>
@@ -233,8 +176,6 @@
         <option value="$PROJECT_DIR$/matching.html" />
         <option value="$PROJECT_DIR$/trans.html" />
         <option value="$PROJECT_DIR$/tracking.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/css/dashboard.css" />
         <option value="$PROJECT_DIR$/buyer.html" />
@@ -242,6 +183,8 @@
         <option value="$PROJECT_DIR$/dashboard.html" />
         <option value="$PROJECT_DIR$/bos.html" />
         <option value="$PROJECT_DIR$/services.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -255,6 +198,9 @@
   <component name="ProjectFrameBounds">
     <option name="width" value="1280" />
     <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -280,6 +226,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="comflo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comflo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comflo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -394,18 +354,18 @@
       <workItem from="1518022316207" duration="631000" />
       <workItem from="1518026039015" duration="462000" />
       <workItem from="1518035350005" duration="1780000" />
-      <workItem from="1518076370126" duration="11963000" />
+      <workItem from="1518076370126" duration="13684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80994000" />
+    <option name="totallyTimeSpent" value="82715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2533757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2533757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -483,19 +443,10 @@
     <entry file="file://$PROJECT_DIR$/matching.html" />
     <entry file="file://$PROJECT_DIR$/trans.html" />
     <entry file="file://$PROJECT_DIR$/tracking.html" />
-    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/images/icons/Farm.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="25" column="104" lean-forward="false" selection-start-line="25" selection-start-column="104" selection-end-line="25" selection-end-column="104" />
           <folding />
         </state>
       </provider>
@@ -505,24 +456,6 @@
         <state relative-caret-position="154">
           <caret line="74" column="21" lean-forward="false" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/dashboard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4560">
-          <caret line="472" column="0" lean-forward="true" selection-start-line="472" selection-start-column="0" selection-end-line="484" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5450">
-          <caret line="146" column="7" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="7" />
-          <folding>
-            <marker date="1518078414000" expanded="true" signature="0:2" ph="/*...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,6 +490,40 @@
           <folding>
             <element signature="e#4365#4371#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="25" column="104" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="477" column="0" lean-forward="false" selection-start-line="477" selection-start-column="0" selection-end-line="484" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="639" column="1" lean-forward="true" selection-start-line="639" selection-start-column="1" selection-end-line="639" selection-end-column="1" />
+          <folding>
+            <marker date="1518189516000" expanded="true" signature="0:2" ph="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
