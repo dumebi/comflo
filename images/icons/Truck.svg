@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.53479 86.85136">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #c42c28;
+      }
+
+      .cls-3 {
+        fill: #e77716;
+      }
+
+      .cls-4 {
+        fill: #83c225;
+      }
+
+      .cls-5 {
+        fill: #f6d500;
+      }
+
+      .cls-6 {
+        fill: gray;
+      }
+    </style>
+  </defs>
+  <title>Truck</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <rect class="cls-1" width="116.53479" height="86.85136"/>
+        <rect class="cls-1" width="116.53479" height="86.85136"/>
+        <g>
+          <rect class="cls-2" x="74.20837" y="44.55653" width="12.64343" height="12.64349"/>
+          <rect class="cls-3" x="59.3827" y="29.68323" width="12.64343" height="20.06851"/>
+          <polygon class="cls-2" points="86.852 42.327 74.208 29.683 74.208 29.683 74.208 42.327 86.852 42.327"/>
+          <rect class="cls-4" x="29.64377" y="37.10825" width="12.64343" height="12.64349"/>
+          <rect class="cls-3" x="44.54107" y="37.10825" width="12.64343" height="12.64349"/>
+          <rect class="cls-4" x="29.64377" y="22.25822" width="12.64343" height="12.64349"/>
+          <rect class="cls-5" x="44.54107" y="22.25822" width="12.64343" height="12.64349"/>
+          <polygon class="cls-2" points="29.699 57.2 72.026 57.2 72.026 51.978 29.861 51.978 29.699 51.978 29.699 57.2"/>
+          <path class="cls-6" d="M36.38335,62.11176a7.20471,7.20471,0,0,0,14.12793-2.745H36.25152A7.17588,7.17588,0,0,0,36.38335,62.11176Z"/>
+          <path class="cls-6" d="M66.12173,62.11176a7.20471,7.20471,0,0,0,14.12793-2.745H65.98989A7.17609,7.17609,0,0,0,66.12173,62.11176Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

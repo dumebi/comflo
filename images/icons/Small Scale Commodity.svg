@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.53479 86.85136">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #e77716;
+      }
+
+      .cls-3 {
+        fill: #f8c300;
+      }
+
+      .cls-4 {
+        fill: #83c225;
+      }
+    </style>
+  </defs>
+  <title>Small Scale Commodity</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <rect class="cls-1" width="116.53479" height="86.85136"/>
+        <rect class="cls-1" width="116.53479" height="86.85136"/>
+        <g>
+          <rect class="cls-2" x="59.32952" y="44.51433" width="12.64343" height="12.64349"/>
+          <rect class="cls-3" x="44.53098" y="44.51433" width="12.64343" height="12.64349"/>
+          <rect class="cls-4" x="59.32952" y="29.76158" width="12.64343" height="12.64349"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

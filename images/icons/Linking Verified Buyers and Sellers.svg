@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.53479 86.85136">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #f8c300;
+      }
+
+      .cls-3 {
+        fill: #f6d500;
+      }
+
+      .cls-4 {
+        fill: #e77716;
+      }
+
+      .cls-5 {
+        fill: #c42c28;
+      }
+
+      .cls-6 {
+        fill: #83c225;
+      }
+
+      .cls-7 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>Linking Verified Buyers and Sellers</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <rect class="cls-1" width="116.53479" height="86.85136"/>
+        <rect class="cls-1" width="116.53479" height="86.85136"/>
+        <g>
+          <circle class="cls-2" cx="43.33294" cy="38.30389" r="10.3525"/>
+          <g>
+            <polygon class="cls-3" points="22.734 65.577 28.638 71.467 41.848 58.153 36.017 52.294 22.734 65.577"/>
+            <polygon class="cls-2" points="49.163 50.855 37.456 50.855 43.309 56.695 58.269 71.491 64.121 65.692 49.163 50.855"/>
+          </g>
+          <circle class="cls-4" cx="73.13642" cy="38.30389" r="10.3525"/>
+          <polygon class="cls-5" points="59.858 58.256 65.699 64.091 71.652 58.153 65.82 52.294 59.858 58.256"/>
+          <polygon class="cls-4" points="78.967 50.855 67.259 50.855 73.113 56.695 88.035 71.518 93.801 65.689 78.967 50.855"/>
+          <g>
+            <circle class="cls-6" cx="88.99005" cy="27.48453" r="5.17625"/>
+            <polygon class="cls-7" points="92.351 25.63 91.574 24.853 87.899 28.562 86.412 27.075 85.629 27.856 87.899 30.116 92.351 25.63"/>
+          </g>
+          <g>
+            <circle class="cls-6" cx="29.66446" cy="27.48453" r="5.17625"/>
+            <polygon class="cls-7" points="33.025 25.63 32.248 24.853 28.573 28.562 27.086 27.075 26.304 27.856 28.573 30.116 33.025 25.63"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

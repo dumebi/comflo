@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.53479 86.85136">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: gray;
+      }
+
+      .cls-3 {
+        fill: #0a6994;
+      }
+
+      .cls-4 {
+        fill: #da251d;
+      }
+
+      .cls-5 {
+        fill: #e6e6e6;
+      }
+    </style>
+  </defs>
+  <title>Ship</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <rect class="cls-1" width="116.53479" height="86.85136"/>
+        <rect class="cls-1" width="116.53479" height="86.85136"/>
+        <g>
+          <polygon class="cls-2" points="31.104 59.335 55.519 59.367 43.328 71.558 31.104 59.335"/>
+          <polygon class="cls-2" points="44.883 73.113 58.215 59.871 71.417 73.113 44.883 73.113"/>
+          <polygon class="cls-2" points="60.875 59.367 73.067 71.558 85.207 59.357 60.875 59.367"/>
+          <polygon class="cls-3" points="44.41 44.46 44.41 57.133 47.749 57.133 47.749 57.134 57.133 57.134 57.133 44.46 44.41 44.46"/>
+          <rect class="cls-4" x="44.40999" y="29.71779" width="12.72314" height="12.67322"/>
+          <polygon class="cls-3" points="59.332 44.46 59.332 57.133 62.671 57.133 62.671 57.134 72.055 57.134 72.055 44.46 59.332 44.46"/>
+          <polygon class="cls-5" points="73.972 57.133 77.311 57.133 77.311 57.134 86.695 57.134 73.972 44.46 73.972 57.133"/>
+          <rect class="cls-4" x="59.33192" y="29.71779" width="12.72314" height="12.67322"/>
+          <polygon class="cls-3" points="29.664 44.46 29.664 57.133 33.004 57.133 33.004 57.134 42.388 57.134 42.388 44.46 29.664 44.46"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Profile</title>
+    <!-- Import Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top nav-admin-top">
+    <a class="navbar-brand" href="login.html">
+        <img src="images/comflologo/whitetrans.png"  alt="comflo">
+    </a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#nav-admin-top" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav-admin-top">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <img height="50px" width="50px" src="http://via.placeholder.com/50x50" class="rounded-circle mr-3">
+            </li>
+            <li class="nav-item">
+                <div class="dropdown show">
+                    <a class="dropdown-toggle" href="javascript::" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        User Name
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+
+                        <a class="dropdown-item" href="profile.html"><i class="fa fa-user"></i> Profile</a>
+                        <a class="dropdown-item" href="login.html"><i class="fa fa-sign-out"></i> Logout</a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <div id="nav-mobile" class="width-100">
+            <br>
+            <ul class="widget-tab">
+                <li>
+                    <a href="dashboard.html" title="Home">
+                        <i class="fa fa-home" title="Home"></i>
+                        <p class="hidden-sm-down" title="Home">Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="bos.html" title="Buyer">
+                        <i class="fa fa-user" title="Buy or Sell"></i>
+                        <p class="hidden-sm-down" title="Buy or Sell">Buy or Sell</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="trans.html" title="Transactions">
+                        <i class="fa fa-handshake-o" title="Transactions"></i>
+                        <p class="hidden-sm-down" title="Faculties">Transactions</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Lenders">
+                        <i class="fa fa-users" title="Lenders"></i>
+                        <p class="hidden-sm-down" title="Lenders">Lenders</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Support">
+                        <i class="fa fa-phone" title="Support"></i>
+                        <p class="hidden-sm-down" title="Support">Support</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <nav id="nav-desktop" class="col-sm-2 col-md-1 d-sm-block sidebar">
+            <ul class="nav nav-pills flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" href="dashboard.html">
+                        <p class="hidden-sm-down"><i class="fa fa-home"></i>Home</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bos.html">
+                        <p class="hidden-sm-down"><i class="fa fa-user"></i>Buy or Sell</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="trans.html">
+                        <p class="hidden-sm-down"><i class="fa fa-handshake-o"></i>Transactions</p>
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav nav-pills">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">
+                        <p class="hidden-sm-down"><i class="fa fa-users"></i>Lenders</p>
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav nav-pills">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">
+                        <p class="hidden-sm-down"><i class="fa fa-phone"></i>Support</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="col-sm-12 ml-sm-auto col-md-11 dashboard-content" role="main">
+            <div class="width-100">
+                <h3 class="pull-left text-muted">Initiate a Transaction</h3>
+            </div>
+            <h3>&nbsp;</h3>
+            <section class="row home-content">
+                <div class="col-md-12">
+                    <a href="bos.html">
+                        <div class="col-md-3 pull-left">
+                            <img src="images/icons/Commodity.svg" alt="Commodity">
+                        </div>
+                        <div class="col-md-9 pull-left text-justify">
+                            <h3>&nbsp;</h3>
+                            <h4 class="spanhighh4">BUY or SELL Raw Cashew Nuts (RCN)</h4>
+                            <p>Comflo’s matching process links buyers and sellers seamlessly and provides end-to-end transaction support and visibility </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <a href="buyer.html">
+                        <div class="col-md-3 pull-left">
+                            <img src="images/icons/Truck.svg" alt="Truck">
+                        </div>
+                        <div class="col-md-9 pull-left text-justify">
+                            <h3>&nbsp;</h3>
+                            <h4 class="spanhighh4">SCHEDULE transportation and warehousing</h4>
+                            <p>Arrange local services and use Comflo’s convenient local payment systems </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <a href="buyer.html">
+                        <div class="col-md-3 pull-left">
+                            <img src="images/icons/ProcessingPlant.svg" alt="ProcessingPlant">
+                        </div>
+                        <div class="col-md-9 pull-left text-justify">
+                            <h3>&nbsp;</h3>
+                            <h4 class="spanhighh4">ARRANGE contract processing services</h4>
+                            <p>Contract for processing services with verified parties </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-12">
+                    <a href="buyer.html">
+                        <div class="col-md-3 pull-left">
+                            <img src="images/icons/EndUser.svg" alt="">
+                        </div>
+                        <div class="col-md-9 pull-left text-justify">
+                            <h3>&nbsp;</h3>
+                            <h4 class="spanhighh4">BUY processed cashew kernels</h4>
+                            <p>Contract for high quality processed cashew kernels </p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+    </div>
+</div>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.select2').select2();
+        toastr.options.timeOut = 3000;
+        $("#dob").datepicker({dateFormat: 'yy-mm-dd'});
+    });
+
+</script>
+</body>
+</html>

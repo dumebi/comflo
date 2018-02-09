@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.53479 86.85136">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #f6d500;
+      }
+
+      .cls-3 {
+        fill: #e77716;
+      }
+    </style>
+  </defs>
+  <title>Buyer and Seller Community</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <rect class="cls-1" width="116.53479" height="86.85136"/>
+        <rect class="cls-1" width="116.53479" height="86.85136"/>
+        <g>
+          <g>
+            <g>
+              <polygon class="cls-2" points="37.659 65.508 43.384 71.301 56.597 58.087 50.842 52.185 37.659 65.508"/>
+              <polygon class="cls-3" points="52.396 50.63 64.104 50.63 78.914 65.441 73.12 71.304 52.396 50.63"/>
+              <circle class="cls-2" cx="58.2674" cy="38.07897" r="10.3525"/>
+            </g>
+            <circle class="cls-2" cx="35.9135" cy="45.53599" r="10.3525"/>
+            <polygon class="cls-2" points="30.036 58.087 22.635 65.488 28.476 71.323 41.744 58.087 30.036 58.087"/>
+            <circle class="cls-3" cx="80.57611" cy="45.53599" r="10.3525"/>
+          </g>
+          <polygon class="cls-3" points="86.453 58.087 93.855 65.488 88.014 71.323 74.746 58.087 86.453 58.087"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

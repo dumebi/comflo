@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.53479 86.85136">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #83c225;
+      }
+
+      .cls-3 {
+        fill: #0a6994;
+      }
+
+      .cls-4 {
+        fill: #f6d500;
+      }
+
+      .cls-5 {
+        fill: #da251d;
+      }
+
+      .cls-6 {
+        fill: gray;
+      }
+    </style>
+  </defs>
+  <title>Wholesaler Warehouse</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <rect class="cls-1" width="116.53479" height="86.85136"/>
+        <rect class="cls-1" width="116.53479" height="86.85136"/>
+        <g>
+          <polygon class="cls-2" points="57.184 27.446 57.184 16.326 46.025 27.485 57.184 27.446"/>
+          <polygon class="cls-2" points="59.363 27.485 70.483 27.485 59.324 16.326 59.363 27.485"/>
+          <polygon class="cls-2" points="74.222 42.389 85.342 42.389 74.183 31.23 74.222 42.389"/>
+          <polygon class="cls-2" points="42.111 42.35 42.111 31.23 30.952 42.389 42.111 42.35"/>
+          <rect class="cls-3" x="29.63264" y="44.49919" width="12.67325" height="12.67325"/>
+          <rect class="cls-3" x="74.24992" y="44.49919" width="12.67325" height="12.67325"/>
+          <rect class="cls-3" x="59.34149" y="29.75668" width="12.67325" height="12.67325"/>
+          <rect class="cls-4" x="44.54107" y="44.49919" width="12.67325" height="12.67325"/>
+          <rect class="cls-5" x="44.42009" y="29.75668" width="12.67325" height="12.67325"/>
+          <rect class="cls-6" x="27.45844" y="59.44012" width="61.61791" height="2.19876"/>
+          <g>
+            <polygon class="cls-3" points="72.015 44.499 66.784 44.499 66.784 57.096 66.784 57.172 72.015 57.172 72.015 44.499"/>
+            <polygon class="cls-3" points="64.572 44.499 59.341 44.499 59.341 57.172 64.572 57.172 64.572 57.096 64.572 44.499"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
