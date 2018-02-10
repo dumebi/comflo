@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Arrange Local Services</title>
+    <title>Obtain Contract Processing Services</title>
     <!-- Import Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
@@ -96,11 +96,11 @@
         <main class="col-sm-12 ml-sm-auto col-md-11 dashboard-content" role="main">
             <div class="row">
                 <div class="col-md-2 pull-left">
-                    <img src="images/icons/Truck.svg" alt="Truck">
+                    <img src="images/icons/ProcessingPlant.svg" alt="Truck">
                 </div>
                 <div class="col-md-6 pull-left text-justify">
                     <h3>&nbsp;</h3>
-                    <h3 class="pull-left text-muted"> Arrange Local Services</h3>
+                    <h3 class="pull-left text-muted"> Obtain Contract Processing Services</h3>
                 </div>
             </div>
             <h3>&nbsp;</h3>
@@ -115,44 +115,36 @@
                                 <label>Select all that apply:</label>
                                 <div class="form-group">
                                     <div class="row">
-                                        <div class="col-lg-3">
+                                        <div class="col-lg-4">
                                             <div class="input-group">
                                               <span class="input-group-addon">
-                                                <input type="radio" name="inspections" id="inspections">
+                                                <input type="radio" name="rcn_processing" id="rcn_processing">
                                               </span>
-                                                <input type="text" class="form-control" value="Inspections" disabled>
+                                                <input type="text" class="form-control" value="Processing of RCN" disabled>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3">
+                                        <div class="col-lg-4">
                                             <div class="input-group">
                                               <span class="input-group-addon">
-                                                <input type="radio" name="truck_transportation" id="truck_transportation">
+                                                <input type="radio" name="package_kernels" id="package_kernels">
                                               </span>
-                                                <input type="text" class="form-control" value="Truck Transportation" disabled>
+                                                <input type="text" class="form-control" value="Packaging kernels" disabled>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3">
+                                        <div class="col-lg-4">
                                             <div class="input-group">
                                               <span class="input-group-addon">
-                                                <input type="radio" name="local_storage" id="local_storage">
+                                                <input type="radio" name="shipping" id="shipping">
                                               </span>
-                                                <input type="text" class="form-control" value="Local Storage" disabled>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="input-group">
-                                              <span class="input-group-addon">
-                                                <input type="radio" name="marine_transportation" id="marine_transportation">
-                                              </span>
-                                                <input type="text" class="form-control" value="Marine Transportation" disabled>
+                                                <input type="text" class="form-control" value="Shipping" disabled>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label>Location</label>
-                                <input type="text" name="location" class="form-control" placeholder="Location">
+                                <label>Preferred Processing Region</label>
+                                <input type="text" name="region" class="form-control" placeholder="Preferred Processing Region">
                             </div>
                             <div class="form-group">
                                 <label>Quantity</label>
@@ -189,7 +181,6 @@
     $(document).ready(function () {
         $('.select2').select2();
         toastr.options.timeOut = 3000;
-        $("#date").datepicker({minDate: 0, dateFormat: 'yy-mm-dd'});
     });
 
 </script>
