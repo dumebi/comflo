@@ -623,6 +623,10 @@ footer .col-lg-3 ul.social-icons li {
   border: 1px solid #ffffff;
   display: block;
 }
+
+.fa-20x{
+  font-size:300px
+}
 @media screen and (max-width: 699px) {
   h3{
     font-size: 0.8rem !important;
