@@ -558,50 +558,44 @@ footer .col-lg-3 ul.social-icons li {
   vertical-align: middle;
 }
 .circle {
-  background: yellow;
+  background: #ffc107;
   border-radius: 50px;
-  border: 3px solid green;
   height: 50px;
   font-weight: bold;
   width: 50px;
-  display: table;
   margin: 5px auto;
 }
 
-.circle-grey {
-  background: grey;
+.circle-white {
+  background: #ffffff;
+  border: 2px #000000 solid;
   border-radius: 50px;
-  border: 3px solid green;
   height: 50px;
   font-weight: bold;
   width: 50px;
-  display: table;
   margin: 5px auto;
 }
 
-.circle-blue {
-  background: blue;
+.circle-green {
+  background: green;
   border-radius: 25px;
-  height: 25px;
-  width: 25px;
-  display: table;
-  /*margin: 5px auto;*/
+  height: 50px;
+  font-weight: bold;
+  width: 50px;
+  margin: 5px auto;
 }
 
 .circle i {
   vertical-align: middle;
   display: table-cell;
   color: yellow;
-}
 
-.col-md-1{
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .col-md-1 p{
   font-size: 12px;
   width:fit-content;
+  margin: 0px auto;
 }
 
 .mt-40{
@@ -639,5 +633,8 @@ footer .col-lg-3 ul.social-icons li {
   h1{
     font-size: 1.2rem !important;
     margin-bottom:0.8rem !important;
+  }
+  .noshow{
+    display: none;
   }
 }

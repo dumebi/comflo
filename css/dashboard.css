@@ -17,6 +17,15 @@ h1 {
   padding-top: 2rem;
 }
 
+.hr2 {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid #000;
+  margin: 1em 0;
+  padding: 0;
+}
+
 .small, small{
   font-size: 12px;
 }
@@ -471,6 +480,10 @@ select.form-control:not([size]):not([multiple]){
 
 #nav-mobile{
   display: none;
+}
+
+#map{
+  height: 100%;
 }
 
 

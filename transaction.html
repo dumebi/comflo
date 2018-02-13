@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Transaction</title>
+    <title>Transaction Complete</title>
     <!-- Import Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
@@ -25,7 +25,7 @@
 
 <body>
 <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-admin-top">
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="index.html">
         <h1>
             Comflo
         </h1>
@@ -46,8 +46,8 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 
-                        <a class="dropdown-item" href="#"><i class="fa fa-user"></i> Profile</a>
-                        <a class="dropdown-item" href="#"><i class="fa fa-sign-out"></i> Logout</a>
+                        <a class="dropdown-item" href="profile.html"><i class="fa fa-user"></i> Profile</a>
+                        <a class="dropdown-item" href="login.html"><i class="fa fa-sign-out"></i> Logout</a>
                     </div>
                 </div>
             </li>
@@ -61,7 +61,7 @@
         <nav class="col-sm-2 col-md-1 d-sm-block sidebar">
             <ul class="nav nav-pills flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active" href="profile.html">
+                    <a class="nav-link active" href="dashboard.html">
                         <p class="hidden-sm-down"><i class="fa fa-home"></i>Home</p>
                     </a>
                 </li>
@@ -71,7 +71,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="seller.html">
+                    <a class="nav-link" href="#">
                         <p class="hidden-sm-down"><i class="fa fa-user-o"></i>Seller</p>
                     </a>
                 </li>
@@ -83,7 +83,7 @@
             </ul>
             <ul class="nav nav-pills">
                 <li class="nav-item ">
-                    <a class="nav-link" href="lender.html">
+                    <a class="nav-link" href="#">
                         <p class="hidden-sm-down"><i class="fa fa-users"></i>Lenders</p>
                     </a>
                 </li>
@@ -97,121 +97,61 @@
             </ul>
         </nav>
 
-        <main class="col-sm-10 ml-sm-auto col-md-11 dashboard-content" role="main">
+        <main class="col-sm-12 ml-sm-auto col-md-11 dashboard-content" role="main">
             <div class="width-100">
-                <h1 class="pull-left">Transactions</h1>
+                <h1 class="pull-left">Transaction Summary</h1>
             </div>
-            <div class="table-responsive dashboard-widget">
-                <table id="allprojects" class="table form-widget" cellspacing="0" width="100%">
-                    <thead>
-                    <tr>
-                        <th class=" hidden-md-down"></th>
-                        <th>Company</th>
-                        <th>Status</th>
-                    </tr>
-                    </thead>
-                    <tfoot>
-                    </tfoot>
-                    <tbody>
-                    <tr>
-                        <td class=" hidden-md-down"></td>
-                        <td>
-                            <a href="javascript:;" data-toggle="modal" data-target=".myModal">
-                                <!-- <img src="http://via.placeholder.com/200x200" alt="project image" > -->
-                                Trade House Inc
-                            </a>
-                        </td>
-                        <td>
-                            <span class="badge badge-danger">Cancelled</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class=" hidden-md-down"></td>
-                        <td>
-                            <a href="javascript:;" data-toggle="modal" data-target=".myModal">
-                                <!-- <img src="http://via.placeholder.com/200x200" alt="project image" > -->
-                                Jakarta Company
-                            </a>
-                        </td>
-                        <td>
-                            <span class="badge badge-success">Completed</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class=" hidden-md-down"></td>
-                        <td>
-                            <a href="javascript:;" data-toggle="modal" data-target=".myModal">
-                                <!-- <img src="http://via.placeholder.com/200x200" alt="project image" > -->
-                                Jakarta Company
-                            </a>
-                        </td>
-                        <td>
-                            <span class="badge badge-warning">In Progress</span>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-        </main>
-
-    </div>
-</div>
-
-<div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog front-view-modal admin-projects" role="document">
-        <div class="modal-content ">
-            <div class="modal-header no-border">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
+            <div class="width-100 dashboard-widget">
                 <div class="row">
                     <div class="col-md-12 col-lg-12">
-                        <h2>Trade House Inc. - Transaction Stats</h2>
-                        <section class="row text-center placeholders">
-                            <div class="col-4 col-sm-4 placeholder">
-                                <a href="">
-                                    <i class="fa fa-user-plus fa-5x spanhigh"></i>
-                                    <h4 class="spanhighh4">View Packaging stats</h4>
-                                </a>
+                        <form>
+                            <!--<div class="width-100">-->
+                            <!--<h4 class="pull-left margin-bottom-1-5">Trade House Inc.</h4>-->
+                            <!--</div>-->
+                            <div class="width-100">
+                                <h4 class="pull-left margin-bottom-1-5">Transaction Complete</h4>
                             </div>
-                            <div class="col-4 col-sm-4 placeholder">
-                                <a href="">
-                                    <i class="fa fa-user fa-5x spanhigh"></i>
-                                    <h4 class="spanhighh4">View Custom Stats</h4>
-                                </a>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Payment Confirmation Number:</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>HKN122347</label>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-4 col-sm-4 placeholder">
-                                <a href="">
-                                    <i class="fa fa-handshake-o fa-5x spanhigh"></i>
-                                    <h4 class="spanhighh4">View Inspection Stats</h4>
-                                </a>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Duration at sea:</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>2 months</label>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-6 col-sm-6 placeholder">
-                                <a href="">
-                                    <i class="fa fa-users fa-5x spanhigh"></i>
-                                    <h4 class="spanhighh4">View Shipping stats</h4>
-                                </a>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Transaction analytics </label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>-- coming soon</label>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-6 col-sm-6 placeholder">
-                                <a href="">
-                                    <i class="fa fa-users fa-5x spanhigh"></i>
-                                    <h4 class="spanhighh4">View Shipping stats</h4>
-                                </a>
-                            </div>
-                        </section>
-
-                        <div class="row">
-                            <hr>
-                            <p class="col-md-6">Duration: <strong>16 Days</strong></p>
-                            <p class="col-md-6">Status: <strong>(4 hours) In progress</strong></p>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
+            <p class="mt-10">
+                <a href="dashboard.html" class="btn btn-primary pull-right">
+                    Back to Comflo
+                </a>
+            </p>
+        </main>
 
-        </div>
     </div>
 </div>
 <!-- Bootstrap core JavaScript
@@ -220,17 +160,5 @@
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
-<script>
-    $(document).ready(function() {
-        $('#allprojects').DataTable({
-            "pageLength": 12,
-            "lengthChange": false
-        });
-    } );
-</script>
 </body>
 </html>

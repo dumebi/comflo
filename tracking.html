@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Matching</title>
+    <title>Transaction Tracking</title>
     <!-- Import Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
@@ -58,7 +58,42 @@
 
 <div class="container-fluid">
     <div class="row">
-        <nav class="col-sm-2 col-md-1 d-sm-block sidebar">
+        <div id="nav-mobile" class="width-100">
+            <br>
+            <ul class="widget-tab">
+                <li>
+                    <a href="dashboard.html" title="Home">
+                        <i class="fa fa-home" title="Home"></i>
+                        <p class="hidden-sm-down" title="Home">Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="bos.html" title="Buyer">
+                        <i class="fa fa-user" title="Buy or Sell"></i>
+                        <p class="hidden-sm-down" title="Buy or Sell">Buy or Sell</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="trans.html" title="Transactions">
+                        <i class="fa fa-handshake-o" title="Transactions"></i>
+                        <p class="hidden-sm-down" title="Faculties">Transactions</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Lenders">
+                        <i class="fa fa-users" title="Lenders"></i>
+                        <p class="hidden-sm-down" title="Lenders">Lenders</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Support">
+                        <i class="fa fa-phone" title="Support"></i>
+                        <p class="hidden-sm-down" title="Support">Support</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <nav id="nav-desktop" class="col-sm-2 col-md-1 d-sm-block sidebar">
             <ul class="nav nav-pills flex-column">
                 <li class="nav-item">
                     <a class="nav-link active" href="dashboard.html">
@@ -66,13 +101,8 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="buyer.html">
-                        <p class="hidden-sm-down"><i class="fa fa-user"></i>Buyer</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <p class="hidden-sm-down"><i class="fa fa-user-o"></i>Seller</p>
+                    <a class="nav-link" href="bos.html">
+                        <p class="hidden-sm-down"><i class="fa fa-user"></i>Buy or Sell</p>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -97,82 +127,89 @@
             </ul>
         </nav>
 
-        <main class="col-sm-10 ml-sm-auto col-md-11 dashboard-content" role="main">
-            <div class="width-100 mb-40">
-                <div class="pull-left">
-                    <h3>Seller</h3>
-                    <h5>Trade House Inc.</h5>
-                </div>
-                <div class="pull-right">
-                    <h3>Buyer</h3>
-                    <h5>Jakarta Trading co.</h5>
-                </div>
+        <main class="col-sm-12 ml-sm-auto col-md-11 dashboard-content" role="main">
+            <div class="width-100">
+                <h1 class="pull-left">Transaction Tracking</h1>
             </div>
+            <!--<div class="width-100 mb-40">-->
+                <!--<div class="pull-left">-->
+                    <!--<h3>Seller</h3>-->
+                    <!--<h5>Trade House Inc.</h5>-->
+                <!--</div>-->
+                <!--<div class="pull-right">-->
+                    <!--<h3>Buyer</h3>-->
+                    <!--<h5>Jakarta Trading co.</h5>-->
+                <!--</div>-->
+            <!--</div>-->
             <div class="container">
                 <div class="row">
                     <div class="col-md-1 block">
-                        <div class="circle">
-                            <i class="circle-blue fa fa-lock fa-2x"></i>
-                        </div>
-                        <p>Packaging Complete</p>
-                    </div>
-                    <div class="col-md-1 block">
-                        <div class="circle">
-                            <i class="circle-blue fa fa-lock fa-2x"></i>
-                        </div>
-                        <p>Inspections Complete</p>
-                    </div>
-                    <div class="col-md-1 block">
-                        <div class="circle">
-                            <i class="circle-blue fa fa-lock fa-2x"></i>
-                        </div>
-                        <p>Customs Approved</p>
-                    </div>
-                    <div class="col-md-1 block">
-                        <div class="circle">
-                            <i class="circle-blue fa fa-lock fa-2x"></i>
-                        </div>
-                        <p>Shipper Accepted</p>
-                    </div>
-                    <div class="col-md-1 block">
-                        <div class="circle">
-                            <i class="fa fa-lock"></i>
-                        </div>
-                        <p>En Route</p>
-                    </div>
-                    <div class="col-md-1 block">
-                        <div class="circle-grey">
+                        <div class="circle-green">
 
                         </div>
-                        <p>Arrival at Inbound Port</p>
+                        <p class="text-success">Offloaded from Truck</p>
+                    </div>
+                    <div class="col-md-1 noshow">
+                        <h3 class="hr2"></h3>
                     </div>
                     <div class="col-md-1 block">
-                        <div class="circle-grey">
+                        <div class="circle-green">
 
                         </div>
-                        <p>Inbound Customs</p>
+                        <p class="text-success">Customs Cleared</p>
+                    </div>
+                    <div class="col-md-1 noshow">
+                        <h3 class="hr2"></h3>
                     </div>
                     <div class="col-md-1 block">
-                        <div class="circle-grey">
+                        <div class="circle-green">
 
                         </div>
-                        <p>Inbound Quality Inspection</p>
+                        <p class="text-success">Loaded on Vessel</p>
+                    </div>
+                    <div class="col-md-1 noshow">
+                        <h3 class="hr2"></h3>
                     </div>
                     <div class="col-md-1 block">
-                        <div class="circle-grey">
+                        <div class="circle">
 
                         </div>
-                        <p>Arrival at Delivery Point</p>
+                        <p class="text-warning">Shipper Accepted</p>
+                    </div>
+                    <div class="col-md-1 noshow">
+                        <h3 class="hr2"></h3>
+                    </div>
+                    <div class="col-md-1 block">
+                        <div class="circle-white">
+
+                        </div>
+                        <p>Arrived at Destination Port</p>
+                    </div>
+                    <div class="col-md-1 noshow">
+                        <h3 class="hr2"></h3>
+                    </div>
+                    <div class="col-md-1 block">
+                        <div class="circle-white">
+
+                        </div>
+                        <p>Import Inspection</p>
+                    </div>
+                    <div class="col-md-1 noshow">
+                        <h3 class="hr2"></h3>
+                    </div>
+                    <div class="col-md-1 block">
+                        <div class="circle-white">
+
+                        </div>
+                        <p>Received at Destination</p>
                     </div>
                 </div>
             </div>
-            <div class="row mt-40">
-                <p class="pull-left col-md-6">
-                    <strong>Status:</strong> <span class="text-warning">Pending</span>
-                </p>
-                <p class="pull-right col-md-6">
-                    <a onclick="window.history.back()" class="btn btn-secondary">
-                        Back
+            <div id="map"></div>
+            <div class="row">
+                <p class="mt-10">
+                    <a href="transaction.html" class="btn btn-success pull-right">
+                        Advance to Transaction Review
                     </a>
                 </p>
             </div>
@@ -189,13 +226,25 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: -34.397, lng: 150.644},
+            zoom: 2
+        });
+    }
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9J5q8Pb7N6u80W-qt87znohiCVMZXRd8&callback=initMap"
+        async defer></script>
 
 <script>
     $(document).ready(function() {
         $('.select2').select2();
         toastr.options.timeOut = 3000;
     });
-
 </script>
+
 </body>
 </html>
